@@ -1,0 +1,1 @@
+This repo has been created to provide a space for Kelsey McCallister's portfolio files. Folders have been created to house each file.
