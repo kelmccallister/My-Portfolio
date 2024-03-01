@@ -1,0 +1,22 @@
+site_name: Kelsey McCallister's Portfolio
+site_URL: # site URL
+repo_URL: 
+edit_URI: edit/main/docs
+
+docs_dir: docs
+
+nav:
+  - Welcome: 'index.md'
+  - Guide: 'MkDocs Guide.md'
+
+theme:
+  name: material
+  features:
+    -navigation.tabs
+    -navigation.sections
+    -toc.integrate
+    -navigation.top
+    -content.tabs.link
+    -content.code.annotation
+    -content.code.copy
+  language: en
