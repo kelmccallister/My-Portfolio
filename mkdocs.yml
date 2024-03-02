@@ -11,6 +11,9 @@ nav:
 
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
   features:
     -navigation.tabs
     -navigation.sections
@@ -19,7 +22,6 @@ theme:
     -content.tabs.link
     -content.code.annotation
     -content.code.copy
-    -toc.integrate
     -content.action.net
   language: en
 
