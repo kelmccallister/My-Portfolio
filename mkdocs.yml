@@ -15,14 +15,14 @@ theme:
     repo: fontawesome/brands/github
     edit: material/pencil
   features:
-    -navigation.tabs
-    -navigation.sections
-    -toc.integrate
-    -navigation.top
-    -content.tabs.link
-    -content.code.annotation
-    -content.code.copy
-    -content.action.net
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.action.net
   language: en
 
 markdown_extensions:
@@ -49,5 +49,7 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format  
+  - pymdownx.tasklist:
+      custom_checkbox: true          
   - attr_list
   - sane_lists
