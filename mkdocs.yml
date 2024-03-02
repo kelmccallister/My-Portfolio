@@ -19,4 +19,33 @@ theme:
     -content.tabs.link
     -content.code.annotation
     -content.code.copy
+    -toc.integrate
+    -content.action.net
   language: en
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - smarty
+  - pymdownx.magiclink
+  - pymdownx.betterem
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.saneheaders
+  - pymdownx.highlight
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format  
+  - attr_list
+  - sane_lists
