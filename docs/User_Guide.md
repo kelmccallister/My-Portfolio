@@ -6,8 +6,6 @@ GitHub Pages are public webpages hosted and published through GitHub. There are 
 
 ## Prequisites
 
-### Installing Tools
-
 Ensure that the following tools/programs have been installed:
 
 - [Git](https://git-scm.com/downloads)
@@ -29,7 +27,8 @@ Ensure that the following tools/programs have been installed:
 
 ## Create a Virtual Environment
 
-The following steps provide intstructions on setting up a virtual environment using python's venv module within a repository's directory. This provides the ability to preview changes made to the repository before making a commit. As a result of these steps, a web server will run that exposes the website at [`http://127.0.0.1:8000`](http://127.0.0.1:8000).
+!!! info
+    Setting up a virtual environment within a repository's directory using python's venv module provides the ability to preview changes made before making a commit by running a web server that exposes the website at [`http://127.0.0.1:8000`](http://127.0.0.1:8000).
 
 1. Clone the repository in GitHub Desktop.
 2. Open the repository in Visual Studio Code ("VS Code") via GitHub Desktop.
@@ -110,7 +109,9 @@ The following steps provide intstructions on setting up a virtual environment us
     - pymdownx.tasklist:
         custom_checkbox: true          
     - attr_list
+    - md_in_html
     - sane_lists
+    - tables
     ```
 
 6. Save the changes.
@@ -151,13 +152,18 @@ The following steps provide intstructions on setting up a virtual environment us
 1. Access Github Browser. 
 2. Navigate to the repository being used.
 3. Select **Settings** from the tabs at the top of the screen.
+
+    ![](../docs/assets/images/userguide_settings.png)
+
 4. Select **Pages** from the left-hand side menu.
 5. Under the *Branch* section, select `gh-pages` from the branch drop-down menu and select `/(root)` from the file drop-down menu.
-6. Select the **Save** button.
-7. Select the **Visit Site** button at the top of the page.
 
-## Conclusion
-GitHub pages has now been successfully setup.  
+    ![](../docs/assets/images/userguide_branchsettings.png)
+
+6. Select the **Save** button.
+7. Select the **Visit Site** button at the top of the page; no further action needed.
+
+    ![](../docs/assets/images/userguide_visitsite.png)
 
 !!! warning
-    Only add new site pages (i.e., files) under the `docs` folder.
+    Only add new site pages (i.e., files) under the `docs` folder; otherwise, the files will not appear on the site.
