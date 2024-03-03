@@ -1,0 +1,1 @@
+![](../assets/css/procedure_flowchart.png)
