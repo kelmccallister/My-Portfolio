@@ -63,12 +63,14 @@ Ensure that the following tools/programs have been installed:
 
     ![](../assets/images/userguide_createbranch.png)
 
+6. Select the **Publish branch** button.
+
 ## Create a Virtual Environment
 
 ??? info
     Setting up a virtual environment within a repository's directory using python's venv module provides the ability to preview changes made before making a commit by running a web server that exposes the website at [`http://127.0.0.1:8000`](http://127.0.0.1:8000).
 
-1. Open the new branch in Visual Studio Code ("VS Code") via GitHub Desktop.
+1. Open the new branch in Visual Studio Code ("VS Code") via **Open in Visual Stuido Code** button in GitHub Desktop.
 2. Enter the following commands into the VS Code terminal:
 
     ```sh
@@ -86,15 +88,15 @@ Ensure that the following tools/programs have been installed:
 
 ## Configure the Repository
 
-1. Open the Visual Studio Code (VS Code) terminal.
+1. Open the VS Code terminal.
 2. Create the `docs` folder and the `mkdocs.yml` and `index.md` files by running:
     
     ```sh
     mkdocs new .
     ```
 
-??? warning
-    Only add new site pages (i.e., files) under the `docs` folder; otherwise, the files will not appear on the site.
+    ??? warning
+        Only add new site pages (i.e., files) under the `docs` folder; otherwise, the files will not appear on the site.
 
 3. Access the `mkdocs.yml` file.
 4. Add the following plugins to the file:
