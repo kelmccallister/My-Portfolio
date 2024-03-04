@@ -4,7 +4,7 @@ GitHub Pages are public webpages hosted and published through GitHub. There are 
 ??? note "Important Note"
     These instructions are for Windows only.
 
-## Prequisites
+## Prerequisites
 
 Ensure that the following tools/programs have been installed:
 
@@ -59,7 +59,7 @@ Ensure that the following tools/programs have been installed:
 
     ![](../assets/images/userguide_newbranch.png)
 
-5. Provide a branch name and selet the **Create branch** button.
+5. Provide a branch name and select the **Create branch** button.
 
     ![](../assets/images/userguide_createbranch.png)
 
@@ -70,7 +70,7 @@ Ensure that the following tools/programs have been installed:
 ??? info
     Setting up a virtual environment within a repository's directory using python's venv module provides the ability to preview changes made before making a commit by running a web server that exposes the website at [`http://127.0.0.1:8000`](http://127.0.0.1:8000).
 
-1. Open the new branch in Visual Studio Code ("VS Code") via **Open in Visual Stuido Code** button in GitHub Desktop.
+1. Open the new branch in Visual Studio Code ("VS Code") via **Open in Visual Studio Code** button in GitHub Desktop.
 2. Enter the following commands into the VS Code terminal:
 
     ```sh

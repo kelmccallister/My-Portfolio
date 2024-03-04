@@ -1,3 +1,5 @@
 # Terms
+venv
+GitHub
 
 #Abbreviations
