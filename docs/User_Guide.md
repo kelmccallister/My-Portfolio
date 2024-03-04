@@ -1,4 +1,4 @@
-#  User Guide: Publishing to GitHub Pages
+#  User Guide: Publishing to GitHub Pages 
 GitHub Pages are public webpages hosted and published through GitHub. There are three types of GitHub Pages sites: project, user, and organization. Project sites are connected to a specific project hosted on GitHub, such as a JavaScript library or a recipe collection. User and organization sites are connected to a specific account on GitHub.com. This site is an example of a project site. The following sections provide instruction on how to set up a GitHub pages site. Complete them in order.
 
 ??? note "Important Note"
