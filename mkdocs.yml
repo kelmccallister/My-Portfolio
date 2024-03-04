@@ -17,13 +17,10 @@ theme:
     edit: material/pencil
   features:
     - navigation.tabs
-    - navigation.sections
+    - navigation.tracking
+    - navigation.expand
     - toc.integrate
-    - navigation.top
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
-    - content.action.net
+    - content.action.edit
   language: en
 
 markdown_extensions:
