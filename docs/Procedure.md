@@ -43,7 +43,7 @@
     ## Procedure and Flowchart
     The following flowchart and procedure provide instruction on how to submit and fulfill documentation requests. 
 
-    !!! note
+    ??? note
         The Jira workflow can be found on Appendix A.
 
     ### Flowchart
@@ -56,19 +56,15 @@
 
     Once a request is assigned, the assigned **Team Member** will conduct a discovery call with the **Requestor(s)** to confirm the provided information and gather any additional information. The **Team Member** will then make any necessary edits to the request/story, create an initial draft of the requested documentation, and begin the review and revision process. This review and revision process might require additional discussions (e.g., in meetings, chat, email, etc.) with the Requester(s), Stake Holder(s), and/or SME(s). Finally, the **Team Member** will deliver/publish the requested documentation when they determine that the review and revision process has been completed; however, **Requestor(s)** may require the **Team Member** to receive a formal acceptance of the documentation prior to delivery/publication.
 
-    !!! note
-    **Requester(s)**, Stake Holder(s), and SME(s) are expected to attend meetings and/or respond to correspondence in a timely manner; failure to do so can result in delayed Milestones/Deadlines and/or incorrect content or formatting. Providing a high level of detail in the request form may reduce the number of meetings and/or correspondences.
-
-    #### Request Submission
+    ??? note "Important Note"
+        **Requester(s)**, Stake Holder(s), and SME(s) are expected to attend meetings and/or respond to correspondence in a timely manner; failure to do so can result in delayed Milestones/Deadlines and/or incorrect content or formatting. Providing a high level of detail in the request form may reduce the number of meetings and/or correspondences.
 
     **Requestor**
 
     1.	Email all required information (i.e., Purpose, Scope, SharePoint site link and administrator, etc.) to the **Team Supervisor**.
 
-        !!! note 
+        ??? note 
             **Requestors** must provide sufficient information to complete the request; failure to do so can result in delayed Milestones/Deadlines. Refer to the Request Terminology in Definitions Table for descriptions of the various required information. 
-
-    #### Request Fulfillment
 
     **Team Supervisor**
 
@@ -98,7 +94,7 @@
         2. If acceptance is granted, then update the status of the request to “Accepted” and continue to step 15.
     15.	Deliver/publish the requested documentation as previously defined and update the status of the request to “Completed”; no further action needed.
 
-=== "Appendix"
+=== "Appendix A"
 
     ## Appendix A: Jira Workflow for Requests
     The following figure represents the Jira workflow that is applicable to this procedure. Workflow statuses are defined within the Definitions Table.
