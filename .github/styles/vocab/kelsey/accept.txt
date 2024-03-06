@@ -1,5 +1,10 @@
 # Terms
 venv
-GitHub
+[Gg]itHub
+gh
 
-#Abbreviations
+# Abbreviations
+
+# Files
+mkdocs.yml
+yml
