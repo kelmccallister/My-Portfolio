@@ -5,10 +5,10 @@
     ## Introduction
 
     ### Purpose
-    The purpose of this procedure is to provide details regarding the tasks associated with receiving and fulfilling documentation requests. It identifies who is responsible for approving, writing, revising, and publishing requested documentation.
+    The purpose of this standard opperating procedure is to provide details and instructions about receiving and fulfilling documentation requests. It identifies who is responsible for approving, writing, revising, and publishing requested documentation.
 
     ### Audience
-    This procedure applies to all personnel submitting a documentation request ("**Requester**") to the Documentation Team (“**Team**”) and to Team personnel fulfilling those request(s).
+    This procedure applies to all personnel submitting a documentation request (**Requester**) to the Documentation Team (**Team**) and to **Team** personnel fulfilling those request(s).
 
     ### Roles and Responsibilities
     | Role | Responsibility |
@@ -41,7 +41,7 @@
 === "Procedure"
 
     ## Procedure and Flowchart
-    The following flowchart and procedure provide instruction on how to submit and fulfill documentation requests. 
+    The following flowchart and procedure provide instructions about submitting and fulfilling documentation requests. 
 
     ??? note
         The Jira workflow can be found on Appendix A.
@@ -52,9 +52,9 @@
 
     ### Procedure
 
-    **Requesters** are required to complete step 1 of the procedure to successfully submit a documentation request. Mickey Mouse (“**Team Supervisor**”) will review the submitted request and either approve or reject it. If the request is approved, the **Team Supervisor** will create a Jira story and assign it to Kelsey McCallister and/or Lizzy McGuire (“**Team Member**”); if the request is rejected, then the **Team Supervisor** will notify the **Requestor(s)** and provide a justification. 
+    **Requesters** are required to complete step 1 of the procedure to successfully submit a documentation request. Mickey Mouse (**Team Supervisor**) reviews the submitted request and either approves or rejects it. If the request is approved, then the **Team Supervisor** creates a Jira story and assigns it to Kelsey McCallister and/or Lizzy McGuire (**Team Member**); if the request is denied, then the **Team Supervisor** notifies the **Requestor(s)** and provides a justification. 
 
-    Once a request is assigned, the assigned **Team Member** will conduct a discovery call with the **Requestor(s)** to confirm the provided information and gather any additional information. The **Team Member** will then make any necessary edits to the request/story, create an initial draft of the requested documentation, and begin the review and revision process. This review and revision process might require additional discussions (e.g., in meetings, chat, email, etc.) with the Requester(s), Stake Holder(s), and/or SME(s). Finally, the **Team Member** will deliver/publish the requested documentation when they determine that the review and revision process has been completed; however, **Requestor(s)** may require the **Team Member** to receive a formal acceptance of the documentation prior to delivery/publication.
+    Once a request is assigned, the assigned **Team Member** conducts a discovery call with the **Requestor(s)** to confirm the provided information and gather any additional information. The **Team Member** then makes any necessary edits to the request/story, creates an initial draft of the requested documentation, and begins the review and revision process. This review and revision process may require additional discussions (e.g., in meetings, chat, email, etc.) with the Requester(s), Stake Holder(s), and/or SME(s). Finally, the **Team Member** delivers/publishes the requested documentation when they have determined that the review and revision process is complete; however, **Requestor(s)** may require the **Team Member** to receive a formal acceptance of the documentation prior to delivery/publication.
 
     ??? note "Important Note"
         **Requester(s)**, Stake Holder(s), and SME(s) are expected to attend meetings and/or respond to correspondence in a timely manner; failure to do so can result in delayed Milestones/Deadlines and/or incorrect content or formatting. Providing a high level of detail in the request form may reduce the number of meetings and/or correspondences.
@@ -64,7 +64,7 @@
     1.	Email all required information (i.e., Purpose, Scope, SharePoint site link and administrator, etc.) to the **Team Supervisor**.
 
         ??? note 
-            **Requestors** must provide sufficient information to complete the request; failure to do so can result in delayed Milestones/Deadlines. Refer to the Request Terminology in Definitions Table for descriptions of the various required information. 
+            **Requestors** must provide sufficient information to complete the request; failure to do so can result in delayed Milestones/Deadlines. Refer to the Request Terminology in the Definitions Table for descriptions of the various required information. 
 
     **Team Supervisor**
 
@@ -83,27 +83,27 @@
 
     8. Conduct a discovery call to confirm and/or gather additional request information (i.e., Purpose, Scope, etc.) with the **Requestor(s)**. 
     9. Make any necessary edits to the request/story.
-    10.	Update the request/story status to “In Progress” once work has begun.
+    10.	Update the request/story status to `In Progress` once work has begun.
     11.	Create an initial draft of the requested documentation.
     12. Conduct the review and revision process.
     13.	Determine if formal acceptance for delivery/publication is necessary.
         1. If acceptance is necessary, then continue to step 14. 
-        2. If acceptance is not necessary, then update the status of the request/story to “Accepted” and proceed to step 15.
+        2. If acceptance is not necessary, then update the status of the request/story to `Accepted` and proceed to step 15.
     14.	Determine if the documentation is accepted for delivery/publication by either the **Team Supervisor** or the **Requester(s)**.
         1. If acceptance is denied, then return to step 12.
-        2. If acceptance is granted, then update the status of the request to “Accepted” and continue to step 15.
-    15.	Deliver/publish the requested documentation as previously defined and update the status of the request to “Completed”; no further action needed.
+        2. If acceptance is granted, then update the status of the request to `Accepted` and continue to step 15.
+    15.	Deliver/publish the requested documentation as previously defined and update the status of the request to `Completed`; no further action needed.
 
 === "Appendix A"
 
     ## Appendix A: Jira Workflow for Requests
     The following figure represents the Jira workflow that is applicable to this procedure. Workflow statuses are defined within the Definitions Table.
 
-    !!! note
+    ??? note
         This workflow is for context only and is not a fixed workflow within Jira.
 
     ![](../assets/images/jira_workflow.png)
 
-| Name | Signoff Date |
+| Sign-off Date | Name |
 |------|------|
-| Mickey Mouse | 03/03/2024 |
+| 03/03/2024 | Mickey Mouse |
