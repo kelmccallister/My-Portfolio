@@ -4,7 +4,7 @@ venv
 [Gg]itHub
 gh
 webpages
-webpage
+venv
 
 # Abbreviations
 
