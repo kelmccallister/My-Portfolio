@@ -1,5 +1,5 @@
 #  User Guide: Publishing to GitHub Pages 
-GitHub Pages are public webpages hosted and published through GitHub. The following sections provide instruction on how to set up a GitHub pages site. Complete them in order.
+GitHub Pages are public webpages hosted and published through GitHub. The following sections provide instructions on how to set up a GitHub pages site. Complete them in order.
 
 ??? note "Important Note"
     These instructions are for Windows only.
@@ -19,8 +19,8 @@ Ensure that the following tools/programs have been installed:
 
 ## Create a Repository
 
-1. Access GitHub browser.
-2. CLick **New** at the top of the dashboard.
+1. Open GitHub browser.
+2. Click **New** at the top of the dashboard.
 
     ![](../assets/images/userguide_newbutton.png)
 
@@ -40,7 +40,7 @@ Ensure that the following tools/programs have been installed:
 
     ![](../assets/images/userguide_currentrepo.png)
 
-5. Click **Ad** > **Clone repository**.
+5. Click **Add** > **Clone repository**.
 
     ![](../assets/images/userguide_clonerepo.png)
 
@@ -69,9 +69,9 @@ Ensure that the following tools/programs have been installed:
 ## Create a Virtual Environment
 
 ??? info
-    Setting up a virtual environment within a repository's directory using python's venv module provides the ability to preview changes made before making a commit by running a web server that exposes the website at [`http://127.0.0.1:8000`](http://127.0.0.1:8000).
+    Setting up a virtual environment within a repository's directory using Python's venv module provides the ability to preview changes made before making a commit. It will run a web server that exposes the website at [`http://127.0.0.1:8000`](http://127.0.0.1:8000).
 
-1. Click **Open in Visual Studio Code** in GitHub desktop.
+1. Click **Open in Visual Studio Code** in GitHub Desktop.
 2. Open the terminal in Visual Studio Code.
 3. Enter the following commands into the terminal:
 
@@ -152,10 +152,12 @@ Ensure that the following tools/programs have been installed:
         ```
 
 4. Save the changes.
-5. Create a new **.github** folder.
-6. Create a **workflows** sub-folder within the **.github** folder.
-7. Create a new *ci.yml* file within the **workflows** folder.
-8. Paste the following into the *ci.yml* file:
+5. Click the **New Folder** icon.
+6. Enter ".github/workflows" into the name field.
+7. Click the **New File** icon.
+8. Enter "ci.yml".
+9. Open the *ci.yml* file.
+10. Paste the following into the file:
 
     ```
     name: ci
@@ -182,8 +184,45 @@ Ensure that the following tools/programs have been installed:
           - run: mkdocs gh-deploy --force
     ```
 
-9. Save the changes.
-10. Commit the changes to Main.
+11. Save the changes.
+12. Click the **Extensions** icon on the left-hand side navigation menu.
+13. Enter "Vale" into the **Search** field.
+14. Click **Install**.
+15. Click the **Manage** icon.
+16. Select **Extension Settings** from the drop-down list.
+17. Check **Enable spell checking with Vale**.
+18. Click the **Explorer** icon on the left-hand side navigation menu.
+19. Click the **New File** icon.
+20. Enter ".vale.ini".
+21. Open the *.vale.ini* file.
+22. Paste the following into the file.
+    
+    ```sh
+    StylesPath = .github/styles
+
+    MinAlertLevel = warning
+
+    Vocab = vale
+
+    [*.md]
+    BasedOnStyles = Vale
+    ignore = URL, Consistency
+
+    Vale.Terms = NO
+    ```
+
+23. Save the changes.
+24. Select the **.github** folder
+25. Click the **New Folder** icon.
+26. Enter "styles/config/vocabularies/vale". 
+27. Click the **New File** icon.
+28. Enter "accept.txt".
+
+    ??? note
+        The *accept.txt* file allows rule exceptions (e.g., what is considered a spelling error).
+
+29. Save the changes.
+30. Commit the changes to `Main`.
 
 ## Publish to GitHub Pages
 
