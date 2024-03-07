@@ -10,94 +10,81 @@ Ensure that the following tools/programs have been installed:
 
 - [Git](https://git-scm.com/downloads)
 - [GitHub Desktop](https://desktop.github.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
+- [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
+- [Python and Pip](https://www.python.org/downloads/)
 - [MkDocs](https://www.mkdocs.org/getting-started/)
-    - MkDocs requires [Python and Pip](https://www.python.org/downloads/) be installed. 
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/)
 - [Vale](https://tw-docs.com/docs/vale/install-vale/)
-    - Vale is used to check spelling.
+
+??? note "Notes"
+    - Installing Python and Pip is a prerequisite to installing MkDocs.
+    - Vale must be installed locally and as an extension in VS Code with spell check enabled. 
 
 ## Create a Repository
 
-1. Open GitHub browser.
+1. Open GitHub Browser.
 2. Click **New** at the top of the dashboard.
 
     ![](../assets/images/userguide_newbutton.png)
 
-3. Enter the new repository name within the corresponding field.
+3. Enter the new repository name into the corresponding field.
 4. Provide any additional settings.
-5. CLick **Create repository** at the bottom of the screen.
+5. Click **Create repository** at the bottom of the window.
 
 ## Clone the Repository
 
-1. Click **<> Code**.
+1. Navigate to the desired repository. 
+2. Click **<> Code**.
    
     ![](../assets/images/userguide_codebutton.png)
 
-2. Copy the URL.
-3. Open GitHub Desktop.
-4. Select the **Current repository** drop-down menu.
+3. Copy the URL.
+4. Open GitHub Desktop.
+5. Click the **Current repository** drop-down list.
 
     ![](../assets/images/userguide_currentrepo.png)
 
-5. Click **Add** > **Clone repository**.
+6. Click **Add** > **Clone repository**.
 
     ![](../assets/images/userguide_clonerepo.png)
 
-6. Select the **URL** tab.
-7. Paste the URL into the corresponding field.
-8. Click **Clone**.
+7. Select the **URL** tab.
+8. Paste the URL into the corresponding field.
+9. Click **Clone**.
 
     ![](../assets/images/userguide_cloneurl.png)
 
 ## Create a New Branch
 
-1. Select the cloned repository from the **Current repository** drop-down menu.
-2. Select the **Current branch** drop-down menu.
-3. Ensure the current branch selected is "main".
-4. Click **New branch**.
+1. Select a repository from the **Current repository** drop-down list.
+2. Click the **Current branch** drop-down list.
+
+    ??? note
+        Ensure the current branch selected is `Main`.
+
+3. Click **New branch**.
 
     ![](../assets/images/userguide_newbranch.png)
 
-5. Enter the branch name into the corresponding field.
-6. Click **Create branch**.
+4. Enter the branch name into the corresponding field.
+5. Click **Create branch**.
 
     ![](../assets/images/userguide_createbranch.png)
 
-7. Click **Publish branch**.
-
-## Create a Virtual Environment
-
-??? info
-    Setting up a virtual environment within a repository's directory using Python's venv module provides the ability to preview changes made before making a commit. It will run a web server that exposes the website at [`http://127.0.0.1:8000`](http://127.0.0.1:8000).
-
-1. Click **Open in Visual Studio Code** in GitHub Desktop.
-2. Open the terminal in Visual Studio Code.
-3. Enter the following commands into the terminal:
-
-    ```sh
-    python -m venv ./venv
-    ./venv/scripts/activate
-    ```
-
-4. Run:
-
-    ```sh 
-    mkdocs serve
-    ```
-
-5. Open the provided `http://127.0.0.1:8000` link.
+6. Click **Publish branch**.
 
 ## Configure the Repository
 
-1. Run the following command in the VS Code terminal to create the **docs** folder and the *mkdocs.yml* and *index.md* files:
+1. Click **Open in Visual Studio Code** in GitHub Desktop after creating a new branch.
+2. Open the VS Code terminal. 
+3. Run the following command to create a **docs** folder and the *mkdocs.yml* and *index.md* files:
     
     ```sh
     mkdocs new .
     ```
 
-2. Open the *mkdocs.yml* file.
-3. Add the following plugins to the file:
+4. Open the *mkdocs.yml* file.
+5. Add the following plugins to the file:
 
     === "MkDocs Material Plugins"
     
@@ -151,13 +138,19 @@ Ensure that the following tools/programs have been installed:
         - tables
         ```
 
-4. Save the changes.
-5. Click the **New Folder** icon.
-6. Enter ".github/workflows" into the name field.
-7. Click the **New File** icon.
-8. Enter "ci.yml".
-9. Open the *ci.yml* file.
-10. Paste the following into the file:
+6. Save the changes.
+7. Click the **New Folder** icon.
+
+    ![](../assets/images/userguide_newfoldericon.png)
+
+8. Enter `.github/workflows`.
+9. Click the **New File** icon.
+
+    ![](../assets/images/userguide_newfileicon.png)
+
+10. Enter `ci.yml`.
+11. Open the *ci.yml* file.
+12. Paste the following into the file:
 
     ```
     name: ci
@@ -184,18 +177,12 @@ Ensure that the following tools/programs have been installed:
           - run: mkdocs gh-deploy --force
     ```
 
-11. Save the changes.
-12. Click the **Extensions** icon on the left-hand side navigation menu.
-13. Enter "Vale" into the **Search** field.
-14. Click **Install**.
-15. Click the **Manage** icon.
-16. Select **Extension Settings** from the drop-down list.
-17. Check **Enable spell checking with Vale**.
-18. Click the **Explorer** icon on the left-hand side navigation menu.
-19. Click the **New File** icon.
-20. Enter ".vale.ini".
-21. Open the *.vale.ini* file.
-22. Paste the following into the file.
+13. Save the changes.
+14. Exit the **.github** folder. 
+15. Click the **New File** icon.
+16. Enter `.vale.ini`.
+17. Open the *.vale.ini* file.
+18. Paste the following into the file.
     
     ```sh
     StylesPath = .github/styles
@@ -211,33 +198,55 @@ Ensure that the following tools/programs have been installed:
     Vale.Terms = NO
     ```
 
-23. Save the changes.
-24. Select the **.github** folder
-25. Click the **New Folder** icon.
-26. Enter "styles/config/vocabularies/vale". 
-27. Click the **New File** icon.
-28. Enter "accept.txt".
+19. Save the changes.
+20. Select the **.github** folder
+21. Click the **New Folder** icon.
+22. Enter `styles/config/vocabularies/vale`. 
+24. Click the **New File** icon.
+24. Enter `accept.txt`.
 
     ??? note
-        The *accept.txt* file allows rule exceptions (e.g., what is considered a spelling error).
+        The *accept.txt* file allows spelling rule exceptions.
 
-29. Save the changes.
-30. Commit the changes to `Main`.
+25. Save the changes.
+26. Commit the changes to Main.
+
+## Create a Virtual Environment
+
+??? info
+    Setting up a virtual environment within a repository's directory using Python's venv module provides the ability to preview changes made before making a commit. It will run a web server that exposes the website at [`http://127.0.0.1:8000`](http://127.0.0.1:8000).
+
+1. Click **Open in Visual Studio Code** in GitHub Desktop after creating a new branch.
+2. Open the terminal in VS Code.
+3. Enter the following commands into the terminal:
+
+    ```sh
+    python -m venv ./venv
+    ./venv/scripts/activate
+    ```
+
+4. Run:
+
+    ```sh 
+    mkdocs serve
+    ```
+
+5. Open the `http://127.0.0.1:8000` link.
 
 ## Publish to GitHub Pages
 
-1. Access GitHub Browser. 
+1. Open GitHub Browser. 
 2. Navigate to the repository being used.
-3. Select the **Settings** tab at the top of the screen.
+3. Select the **Settings** tab at the top of the window.
 
     ![](../assets/images/userguide_settings.png)
 
 4. Select **Pages** from the left-hand side menu.
-5. Select **gh-pages** from the **branch** drop-down menu and select **/(root)** from the **file** drop-down menu under the page's Branch section.
+5. Select **gh-pages** from the **branch** drop-down list and select **/(root)** from the **file** drop-down list under the page's *Branch* section.
 
     ![](../assets/images/userguide_branchsettings.png)
 
 6. Click **Save**.
-7. Click **Visit Site** at the top of the page; no further action needed.
+7. Click **Visit Site** at the top of the page.
 
     ![](../assets/images/userguide_visitsite.png)
