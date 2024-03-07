@@ -8,7 +8,7 @@ docs_dir: docs
 nav:
   - Welcome: 'index.md'
   - User Guide: 'User_Guide.md'
-  - SOP: 'SOP.md'
+  - SOP: 'Standard-Opp-Procedure.md'
 
 theme:
   name: material
