@@ -1,10 +1,14 @@
 # Terms
+
 venv
 [Gg]itHub
 gh
+webpages
+webpage
 
 # Abbreviations
 
 # Files
+
 mkdocs.yml
 yml
