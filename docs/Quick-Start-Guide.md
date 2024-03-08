@@ -1,5 +1,5 @@
 #  Quick Start Guide: GitHub Pages 
-GitHub Pages are public webpages hosted and published through GitHub. The following sections provide instructions on how to set up a GitHub pages site. Complete them in order.
+GitHub Pages are public webpages hosted and published through GitHub. The following sections provide instructions on how to set up a GitHub Pages site. Complete them in order.
 
 ??? note "Important Note"
     These instructions are for Windows only.
