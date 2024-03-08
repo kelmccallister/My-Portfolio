@@ -22,7 +22,7 @@ This procedure applies to all personnel submitting a documentation request (**Re
 | Jira Linking | "Is a parent of” | Linking category for a request that sits above another issue or request (e.g., a story that is made up of subtasks). |
 | Jira Linking | "Is related to” | Linking category for a request that is related to an existing issue or request. |
 | Jira Status | Accepted | Status of requests that have been accepted for delivery/publication. |
-| Jira Status | Pending Approval | Status of requests that: 1) have undergone steps 2-7 of the procedure or 2) have undergone steps 2-7 of the procedure ("approved"), but work has not begun |
+| Jira Status | Pending Approval | Status of requests that: (1) have undergone steps 2-7 of the procedure or (2) have undergone steps 2-7 of the procedure ("approved"), but work has not begun |
 | Jira Status | Canceled | Status of requests that have been rejected or canceled. |
 | Jira Status | Completed | Status of requests that have been delivered/published. |
 | Jira Status | In Progress | Status of approved requests that a **Team Member** is actively working on. |
