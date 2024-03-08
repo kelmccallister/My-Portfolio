@@ -5,6 +5,7 @@ venv
 gh
 webpages
 venv
+[Jjira]
 
 # Abbreviations
 
