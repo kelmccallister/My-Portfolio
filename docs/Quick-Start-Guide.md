@@ -254,3 +254,7 @@ GitHub Pages are public webpages hosted and published through GitHub. The follow
     7. Click **Visit Site** at the top of the page.
 
         ![](../assets/images/userguide_visitsite.png)
+
+| Sign-off Date | Name |
+|------|------|
+| 03/09/2024 | Mickey Mouse |

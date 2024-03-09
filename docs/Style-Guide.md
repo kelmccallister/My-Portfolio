@@ -204,4 +204,6 @@
     
     Content should advance the understanding of the product. Always check with leadership if there is any uncertainty.
 
-
+| Sign-off Date | Name |
+|------|------|
+| 03/07/2024 | Mickey Mouse |
