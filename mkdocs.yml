@@ -9,6 +9,7 @@ nav:
   - Welcome: 'index.md'
   - Quick Start Guide: 'Quick-Start-Guide.md'
   - SOP: 'Standard-Opp-Procedure.md'
+  - Style Guide: 'Style-Guide.md'
 
 theme:
   name: material

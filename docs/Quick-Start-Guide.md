@@ -81,7 +81,7 @@ GitHub Pages are public webpages hosted and published through GitHub. The follow
 
     1. Click **Open in Visual Studio Code** in GitHub Desktop after creating a new branch.
     2. Open the VS Code terminal. 
-    3. Run the following command to create a *docs* folder and the `mkdocs.yml` and `index.md` files:
+    3. Run the following command to create a **docs** folder and the `mkdocs.yml` and `index.md` files:
     
         ```sh
         mkdocs new .
@@ -147,12 +147,12 @@ GitHub Pages are public webpages hosted and published through GitHub. The follow
 
         ![](../assets/images/userguide_newfoldericon.png)
 
-    8. Enter `.github/workflows`.
+    8. Enter ".github/workflows".
     9. Click the **New File** icon.
 
         ![](../assets/images/userguide_newfileicon.png)
 
-    10. Enter `ci.yml`.
+    10. Enter "ci.yml".
     11. Open the `ci.yml` file.
     12. Paste the following into the file:
 
@@ -184,7 +184,7 @@ GitHub Pages are public webpages hosted and published through GitHub. The follow
     13. Save the changes.
     14. Exit the *.github* folder. 
     15. Click the **New File** icon.
-    16. Enter `.vale.ini`.
+    16. Enter ".vale.ini".
     17. Open the `.vale.ini` file.
     18. Paste the following into the file.
     
@@ -205,12 +205,12 @@ GitHub Pages are public webpages hosted and published through GitHub. The follow
     19. Save the changes.
     20. Select the *.github* folder
     21. Click the **New Folder** icon.
-    22. Enter `styles/config/vocabularies/vale`. 
+    22. Enter "styles/config/vocabularies/vale". 
     23. Click the **New File** icon.
-    24. Enter `accept.txt`.
+    24. Enter "accept.txt".
 
         ??? note
-            The *accept.txt* file allows spelling rule exceptions.
+            The `accept.txt` file allows spelling rule exceptions.
 
     25. Save the changes.
     26. Commit the changes to Main.
