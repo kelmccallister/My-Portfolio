@@ -182,7 +182,7 @@ GitHub Pages are public webpages hosted and published through GitHub. The follow
         ```
 
     13. Save the changes.
-    14. Exit the **.github** folder. 
+    14. Exit the *.github* folder. 
     15. Click the **New File** icon.
     16. Enter ".vale.ini".
     17. Open the `.vale.ini` file.
@@ -203,7 +203,7 @@ GitHub Pages are public webpages hosted and published through GitHub. The follow
         ```
 
     19. Save the changes.
-    20. Select the **.github** folder
+    20. Select the *.github* folder
     21. Click the **New Folder** icon.
     22. Enter "styles/config/vocabularies/vale". 
     23. Click the **New File** icon.
