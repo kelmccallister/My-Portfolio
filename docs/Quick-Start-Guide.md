@@ -1,12 +1,15 @@
 #  Quick Start Guide: GitHub Pages 
-GitHub Pages are public webpages hosted and published through GitHub. The following sections provide instructions on how to set up a GitHub Pages site. Complete them in order.
 
-??? note "Important Note"
-    These instructions are for Windows only.
+=== "Introduction"
 
-=== "Prerequisites"
+    ## Introduction 
 
-    ## Prerequisites
+    GitHub Pages are public webpages hosted and published through GitHub. The following sections provide instructions on how to set up a GitHub Pages site. Complete them in order.
+
+    ??? note "Important Note"   
+        These instructions are for Windows only.
+
+    ### Prerequisites
 
     Ensure that the following tools/programs have been installed:
 
@@ -79,7 +82,8 @@ GitHub Pages are public webpages hosted and published through GitHub. The follow
 
     ## Configure the Repository
 
-    1. Click **Open in Visual Studio Code** in GitHub Desktop after creating a new branch.
+    1. Create and publish a new branch.
+    2. Click **Open in Visual Studio Code** in GitHub Desktop.
     2. Open the VS Code terminal. 
     3. Run the following command to create a **docs** folder and the `mkdocs.yml` and `index.md` files:
     
@@ -186,7 +190,7 @@ GitHub Pages are public webpages hosted and published through GitHub. The follow
     15. Click the **New File** icon.
     16. Enter ".vale.ini".
     17. Open the `.vale.ini` file.
-    18. Paste the following into the file.
+    18. Paste the following into the file:
     
         ```sh
         StylesPath = .github/styles
