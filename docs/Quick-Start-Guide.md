@@ -32,7 +32,7 @@
     1. Open GitHub Browser.
     2. Click **New** at the top of the dashboard.
 
-        ![](../assets/images/userguide_newbutton.png)
+        ![New Button](../assets/images/userguide_newbutton.png)
 
     3. Enter the new repository name into the corresponding field.
     4. Provide any additional settings.
@@ -43,23 +43,23 @@
     1. Navigate to the desired repository. 
     2. Click **<> Code**.
    
-        ![](../assets/images/userguide_codebutton.png)
+        ![Copy URL](../assets/images/userguide_codebutton.png)
 
     3. Copy the URL.
     4. Open GitHub Desktop.
-    5. Click the **Current repository** drop-down list.
+    5. Select the **Current repository** drop-down list.
 
-        ![](../assets/images/userguide_currentrepo.png)
+        ![Current Repository Drop-Down List](../assets/images/userguide_currentrepo.png)
 
     6. Click **Add** > **Clone repository**.
 
-        ![](../assets/images/userguide_clonerepo.png)
+        ![Add > Clone Repository](../assets/images/userguide_clonerepo.png)
 
     7. Select the **URL** tab.
     8. Paste the URL into the corresponding field.
     9. Click **Clone**.
 
-        ![](../assets/images/userguide_cloneurl.png)
+        ![Clone Button](../assets/images/userguide_cloneurl.png)
 
     ## Create a New Branch
 
@@ -71,12 +71,12 @@
 
     3. Click **New branch**.
 
-        ![](../assets/images/userguide_newbranch.png)
+        ![New Branch Button](../assets/images/userguide_newbranch.png)
 
     4. Enter the branch name into the corresponding field.
     5. Click **Create branch**.
 
-        ![](../assets/images/userguide_createbranch.png)
+        ![Create Branch](../assets/images/userguide_createbranch.png)
 
     6. Click **Publish branch**.
 
@@ -149,12 +149,12 @@
     6. Save the changes.
     7. Click the **New Folder** icon.
 
-        ![](../assets/images/userguide_newfoldericon.png)
+        ![New Folder Icon](../assets/images/userguide_newfoldericon.png)
 
     8. Enter ".github/workflows".
     9. Click the **New File** icon.
 
-        ![](../assets/images/userguide_newfileicon.png)
+        ![New File Icon](../assets/images/userguide_newfileicon.png)
 
     10. Enter "ci.yml".
     11. Open the `ci.yml` file.
@@ -247,17 +247,17 @@
     2. Navigate to the repository being used.
     3. Select the **Settings** tab at the top of the window.
 
-        ![](../assets/images/userguide_settings.png)
+        ![Settings Tab](../assets/images/userguide_settings.png)
 
     4. Select **Pages** from the left-hand side menu.
-    5. Select **gh-pages** from the **branch** drop-down list and select **/(root)** from the **file** drop-down list under the page's *Branch* section.
+    5. Select **gh-pages** from the **branch** drop-down list and select **/(root)** from the **file** drop-down list under the page's **Branch** section.
 
-        ![](../assets/images/userguide_branchsettings.png)
+        ![Branch Section](../assets/images/userguide_branchsettings.png)
 
     6. Click **Save**.
     7. Click **Visit Site** at the top of the page.
 
-        ![](../assets/images/userguide_visitsite.png)
+        ![Visit Site Button](../assets/images/userguide_visitsite.png)
 
 | Sign-off Date | Name |
 |------|------|
