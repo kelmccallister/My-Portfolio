@@ -7,11 +7,11 @@ docs_dir: docs
 
 nav:
   - Welcome: 'index.md'
-  - Quick Start Guide: 'Quick-Start-Guide.md'
-  - SOP: 'Standard-Opp-Procedure.md'
-  - Guide: 'Guide-TicTacToe.md'
-  - Style Guide: 'Style-Guide.md'
+  - Developer-Facing Guide: 'Quick-Start-Guide.md'
+  - User-Facing Guide: 'Guide-TicTacToe.md'
+  - Procedure: 'Standard-Opp-Procedure.md'
   - API Reference: 'api-reference.md'
+  - Style Guide: 'Style-Guide.md' 
 
 theme:
   name: material
